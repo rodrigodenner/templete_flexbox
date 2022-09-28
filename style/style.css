@@ -373,9 +373,8 @@ display: flex;
   header{
     height:auto;
   }
-  .logo{
-    
-    padding-left:auto;
+  img{
+    padding: 20px;
   }
   
   .banner_headline{
@@ -418,4 +417,10 @@ display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
+}
+@media screen and (max-width: 450px) {
+  #latest{
+    margin-top: 200px;
+  }
+  
 }
