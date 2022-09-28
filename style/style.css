@@ -156,6 +156,7 @@ justify-content: center;
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
 .widget_title_text{
 font-size: 21px;
 font-weight: bold;
@@ -352,7 +353,7 @@ display: flex;
   background-color: #39aae1;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
 
  
 
@@ -373,7 +374,8 @@ display: flex;
     height:auto;
   }
   .logo{
-    padding-left: 20px;
+    
+    padding-left:auto;
   }
   
   .banner_headline{
@@ -397,7 +399,7 @@ display: flex;
   flex-direction: column;
 }
 #latest{
-  margin-top: 100px;
+  margin-top: 150px;
 }
   .footer_area,
   #geral aside,
